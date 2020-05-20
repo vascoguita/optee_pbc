@@ -17,7 +17,7 @@ https://github.com/vascoguita/optee_gmp
 You should install the GMP library before building the PBC library.
 The instructions to do so are available in the above repository.
 
-# Installation Instructions
+## Installation instructions
     # 'cross_compile' and 'ta_dev_kit_dir' should be the same that were used to install the GMP library
     make CROSS_COMPILE=<cross_compile> PLATFORM=<platform> TA_DEV_KIT_DIR=<ta_dev_kit_dir>
     make install TA_DEV_KIT_DIR=<ta_dev_kit_dir>
