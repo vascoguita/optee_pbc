@@ -62,7 +62,7 @@ void pbc_die(const char *err, ...) {
   va_start(params, err);
   report("fatal: ", err, params);
   va_end(params);
-  TEE_Panic(128);
+  TEE_Panic(TEE_ERROR_GENERIC);
 }
 
 void pbc_info(const char *err, ...) {
